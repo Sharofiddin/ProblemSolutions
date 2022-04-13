@@ -1,7 +1,5 @@
 package leetcode.easy;
-
 public class SpiralMatrix{
-
         public static int[][] generateMatrix(int n) {
          int[][] ret = new int[n][n];    
          int i = 0;
@@ -10,11 +8,11 @@ public class SpiralMatrix{
          int bottom = n-1;
          int top = 0;
          while(i < n*n){
-            for(int j = left; j < right; j++){
+            for(int j = left; j <= right; j++){
                 ret[top][j] = ++i;
             }
             top++;
-            for(int j = top; j < bottom; j++){
+            for(int j = top; j <= bottom; j++){
                 ret[j][right] = ++i;
             }
             right--;
@@ -27,18 +25,20 @@ public class SpiralMatrix{
             for(int j = bottom; j>=top; j--){
                 ret[j][left] = ++i;
             }
-            right++;
+            left++;
          }
          return ret;
         }
     public static void main(String[] args) {
         printMatrix(generateMatrix(5));
+        printMatrix(generateMatrix(1));
+        printMatrix(generateMatrix(4));
     }
 
     public static void printMatrix(int[][] mat){
         for (int i = 0; i <  mat.length;i++) {
             for (int j = 0; j < mat[i].length; j++) {
-                System.out.println(mat[i][j]);
+                System.out.print(mat[i][j] + " ");
             }
             System.out.println();
             
