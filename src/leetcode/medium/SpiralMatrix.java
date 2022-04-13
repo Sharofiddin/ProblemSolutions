@@ -1,4 +1,4 @@
-package leetcode.easy;
+package leetcode.medium;
 public class SpiralMatrix{
         public static int[][] generateMatrix(int n) {
          int[][] ret = new int[n][n];    
