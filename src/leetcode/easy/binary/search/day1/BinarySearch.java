@@ -1,4 +1,4 @@
-package leetcode.easy.binary.search;
+package leetcode.easy.binary.search.day1;
 
 class Solution {
 	public int searchIn(int[] nums, int begin, int end, int target) {
@@ -18,7 +18,7 @@ class Solution {
     }
 }
 
-public class BinatySearch {
+public class BinarySearch {
 	public static void main(String[] args) {
 		int arr1[] = {-1,0,3,5,9,12};
 		System.out.println(new Solution().search(arr1, 9));

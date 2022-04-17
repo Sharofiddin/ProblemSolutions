@@ -1,4 +1,4 @@
-package leetcode.easy.binary.search;
+package leetcode.easy.binary.search.day1;
 
 /** 
  * Forward declaration of guess API.
