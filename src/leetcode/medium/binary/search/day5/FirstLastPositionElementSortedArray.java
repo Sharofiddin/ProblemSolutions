@@ -1,4 +1,4 @@
-package leetcode.easy.binary.search.day5;
+package leetcode.medium.binary.search.day5;
 
 import java.util.Arrays;
 
