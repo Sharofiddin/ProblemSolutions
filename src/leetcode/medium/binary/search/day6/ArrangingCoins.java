@@ -1,6 +1,6 @@
 package leetcode.medium.binary.search.day6;
 
-public class ArrangeingCoins {
+public class ArrangingCoins {
 	public static class Solution {
 		public static int arrangeCoins(int n) {
 			return calc(n, 1,n, n);
