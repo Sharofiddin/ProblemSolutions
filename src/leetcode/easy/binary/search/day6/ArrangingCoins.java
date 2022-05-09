@@ -1,4 +1,4 @@
-package leetcode.medium.binary.search.day6;
+package leetcode.easy.binary.search.day6;
 
 public class ArrangingCoins {
 	public static class Solution {
